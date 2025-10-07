@@ -14,7 +14,7 @@
     "dev": "set NODE_ENV=development&& node index.js"
   },
   "engines": {
-    "node": "=12.x || =14.x || =15.x"
+    "node": "18.x"
   },
   "dependencies": {
     "express": "^4.17.1",
