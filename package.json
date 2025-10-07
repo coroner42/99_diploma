@@ -9,7 +9,6 @@
     "start": "node index.js",
     "test": "echo \"Tests passed\" && exit 0",
     "build": "rimraf public/bundle.* && rollup --config",
-    "prestart": "npm run build",
     "db:setup": "node scripts/db-setup.js",
     "dev": "set NODE_ENV=development&& node index.js"
   },
